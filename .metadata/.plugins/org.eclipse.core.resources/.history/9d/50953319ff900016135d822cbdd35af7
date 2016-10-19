@@ -125,7 +125,7 @@
 }
         </style>
         <div class="topleft">
-        	<a href="http://127.0.0.1:8020/David%20Maitland%20Website/index.html" class="myButton2">Home</a>
+        	<a href="http://127.0.0.1:8020/David%20Maitland%20Website/www.google.com" class="myButton2">Home</a>
         	<a href="http://127.0.0.1:8020/David%20Maitland%20Website/portfolio.html" class="myButton2">Portfolio</a>
         	<a href="www.google.com" class="myButton2">Contact me</a>
         	<a href="www.google.com" class="myButton2">Blog</a>

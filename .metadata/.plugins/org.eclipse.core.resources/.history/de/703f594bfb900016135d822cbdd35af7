@@ -29,7 +29,6 @@
         	top: 8px;
         	left: 16px;
         	font-size: 18px;
-        	display: inline;
         }
         	body {
         		text-align: center;
@@ -83,53 +82,9 @@
 	position:relative;
 	top:1px;
 }
-.myButton2 {
-	-moz-box-shadow:inset 0px 1px 0px 0px #54a3f7;
-	-webkit-box-shadow:inset 0px 1px 0px 0px #54a3f7;
-	box-shadow:inset 0px 1px 0px 0px #54a3f7;
-	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #007dc1), color-stop(1, #0061a7));
-	background:-moz-linear-gradient(top, #007dc1 5%, #0061a7 100%);
-	background:-webkit-linear-gradient(top, #007dc1 5%, #0061a7 100%);
-	background:-o-linear-gradient(top, #007dc1 5%, #0061a7 100%);
-	background:-ms-linear-gradient(top, #007dc1 5%, #0061a7 100%);
-	background:linear-gradient(to bottom, #007dc1 5%, #0061a7 100%);
-	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#007dc1', endColorstr='#0061a7',GradientType=0);
-	background-color:#007dc1;
-	-moz-border-radius:3px;
-	-webkit-border-radius:3px;
-	border-radius:3px;
-	border:1px solid #124d77;
-	display:inline-block;
-	cursor:pointer;
-	color:#ffffff;
-	font-family:Verdana;
-	font-size:15px;
-	font-weight:bold;
-	padding:20px 30px;
-	text-decoration:none;
-	text-shadow:0px 1px 0px #154682;
-}
-.myButton2:hover {
-	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #0061a7), color-stop(1, #007dc1));
-	background:-moz-linear-gradient(top, #0061a7 5%, #007dc1 100%);
-	background:-webkit-linear-gradient(top, #0061a7 5%, #007dc1 100%);
-	background:-o-linear-gradient(top, #0061a7 5%, #007dc1 100%);
-	background:-ms-linear-gradient(top, #0061a7 5%, #007dc1 100%);
-	background:linear-gradient(to bottom, #0061a7 5%, #007dc1 100%);
-	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#0061a7', endColorstr='#007dc1',GradientType=0);
-	background-color:#0061a7;
-}
-.myButton2:active {
-	position:relative;
-	top:1px;
-}
+
         </style>
-        <div class="topleft">
-        	<a href="http://127.0.0.1:8020/David%20Maitland%20Website/index.html" class="myButton2">Home</a>
-        	<a href="http://127.0.0.1:8020/David%20Maitland%20Website/portfolio.html" class="myButton2">Portfolio</a>
-        	<a href="www.google.com" class="myButton2">Contact me</a>
-        	<a href="www.google.com" class="myButton2">Blog</a>
-        </div>
+        <div class="topleft"><form action="http://127.0.0.1:8020/David%20Maitland%20Website/index.html"><input type="submit" value="Home" /></form><form action="http://127.0.0.1:8020/David%20Maitland%20Website/portfolio.html"><input type="submit" value="Portfolio" /></form><form action="http://google.com"><input type="submit" value="Contact me" /></form><form action="http://google.com"><input type="submit" value="Blog" /></form></div>
     </head>
     <body>
         <div class="center">
@@ -137,7 +92,8 @@
         	<h2>Hello, im David Maitland a games programmer and designer studying at SAE institute Brisbane</h2>
         </div>
         <div class="bottom">
-        	<a href="https://twitter.com/MangoStudioDM" class="myButton">Twitter</a>
+        	<a href="https://www.facebook.com/david.maitland.142" class="myButton">Facebook</form></a>
+        	<a href="#" class="myButton">Twitter</a>
         </div>
     </body>
 </html>

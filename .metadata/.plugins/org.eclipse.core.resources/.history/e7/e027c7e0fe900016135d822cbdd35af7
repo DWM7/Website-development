@@ -1,0 +1,46 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>Portfolio</title>
+                <style>
+        .container {
+        	position: relative;
+        }
+        .center {
+        	position: absolute;
+        	left: 0;
+        	top: 10%;
+        	width: 100%;
+        	text-align: center;
+        	font-size: 22px;
+        }
+        .topleft {
+        	position: absolute;
+        	top: 8px;
+        	left: 16px;
+        	font-size: 18px;
+        }
+        	body {
+        		text-align: center;
+        		background: black;
+        		background-size: cover;
+        		background-position: center;
+        		color: white;
+        		font-family: helvetica;
+        	}
+        	p {
+        		font-size: 22px;
+        	}
+        	input {
+        		border: 0;
+        		padding: 10px;
+        		font-size: 18px;
+        	}
+        </style>
+        <div class="topleft"><form action="http://127.0.0.1:8020/David%20Maitland%20Website/index.html"><input type="submit" value="Home" /></form><form action="http://127.0.0.1:8020/David%20Maitland%20Website/portfolio.html"><input type="submit" value="Portfolio" /></form><form action="http://google.com"><input type="submit" value="Contact me" /></form><form action="http://google.com"><input type="submit" value="Blog" /></form></div>
+    </head>
+    <body>        
+    </body>
+</html>
